@@ -28,13 +28,12 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  pip install -r requirements.tx
+  pip install -r requirements.txt
 ```
 
 Install Fixtures
 
 ```bash
-  python manage.py dumpdata gateway --indent 4 > email_gateway/fixtures/email_template.json
   python manage.py loaddata apps/gateway/fixtures/email_template.json
 ```
 
